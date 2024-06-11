@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Infastructurce\\NTTRUNG_Laze_Languages_Infastructurce.csproj": {}
+  },
+  "projects": {
+    "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Application\\NTTRUNG_Laze_Languages_Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Application\\NTTRUNG_Laze_Languages_Application.csproj",
+        "projectName": "NTTRUNG_Laze_Languages_Application",
+        "projectPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Application\\NTTRUNG_Laze_Languages_Application.csproj",
+        "packagesPath": "C:\\Users\\tientrung\\.nuget\\packages\\",
+        "outputPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tientrung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\NTTRUNG_Laze_Languages_Domain.csproj": {
+                "projectPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\NTTRUNG_Laze_Languages_Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\NTTRUNG_Laze_Languages_Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\NTTRUNG_Laze_Languages_Domain.csproj",
+        "projectName": "NTTRUNG_Laze_Languages_Domain",
+        "projectPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\NTTRUNG_Laze_Languages_Domain.csproj",
+        "packagesPath": "C:\\Users\\tientrung\\.nuget\\packages\\",
+        "outputPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tientrung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Infastructurce\\NTTRUNG_Laze_Languages_Infastructurce.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Infastructurce\\NTTRUNG_Laze_Languages_Infastructurce.csproj",
+        "projectName": "NTTRUNG_Laze_Languages_Infastructurce",
+        "projectPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Infastructurce\\NTTRUNG_Laze_Languages_Infastructurce.csproj",
+        "packagesPath": "C:\\Users\\tientrung\\.nuget\\packages\\",
+        "outputPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Infastructurce\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tientrung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Application\\NTTRUNG_Laze_Languages_Application.csproj": {
+                "projectPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Application\\NTTRUNG_Laze_Languages_Application.csproj"
+              },
+              "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\NTTRUNG_Laze_Languages_Domain.csproj": {
+                "projectPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\NTTRUNG_Laze_Languages_Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
