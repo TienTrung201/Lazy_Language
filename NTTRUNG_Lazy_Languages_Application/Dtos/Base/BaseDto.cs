@@ -1,11 +1,11 @@
-﻿using NTTRUNG_Laze_Languages_Domain.Enum;
+﻿using NTTRUNG_Lazy_Languages_Domain.Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NTTRUNG_Laze_Languages_Application.Dtos
+namespace NTTRUNG_Lazy_Languages_Application.Dtos
 {
     public abstract class BaseDto
     {

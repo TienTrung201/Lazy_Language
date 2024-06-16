@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NTTRUNG_Laze_Languages_Domain.Interface.UnitOfWork
+namespace NTTRUNG_Lazy_Languages_Domain.Interface.UnitOfWork
 {
     /// <summary>
     /// Giao diện đại diện cho đơn vị công việc (Unit of Work) trong quá trình thao tác với cơ sở dữ liệu

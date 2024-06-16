@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NTTRUNG_Laze_Languages_Domain
+namespace NTTRUNG_Lazy_Languages_Domain
 {
     /// <summary>
     /// Lớp tượng trưng cho ngoại lệ xảy ra khi không tìm thấy tài nguyên

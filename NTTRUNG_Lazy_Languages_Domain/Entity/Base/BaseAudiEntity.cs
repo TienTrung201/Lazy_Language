@@ -1,4 +1,4 @@
-﻿using NTTRUNG_Laze_Languages_Domain.Resources.ErrorMessage;
+﻿using NTTRUNG_Lazy_Languages_Domain.Resources.ErrorMessage;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NTTRUNG_Laze_Languages_Domain.Entity
+namespace NTTRUNG_Lazy_Languages_Domain.Entity
 {
     /// <summary>
     /// Lớp chứa các thuộc tính dùng để theo dõi thông tin người tạo và người sửa

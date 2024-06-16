@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
-using NTTRUNG_Laze_Languages_Application.Interface.Service;
-using NTTRUNG_Laze_Languages_Application.Dtos.Entity.Account;
+using NTTRUNG_Lazy_Languages_Application.Interface.Service;
+using NTTRUNG_Lazy_Languages_Application.Dtos.Entity.Account;
 using AutoMapper;
-using NTTRUNG_Laze_Languages_Domain.Interface.Repository;
-using NTTRUNG_Laze_Languages_Domain.Interface.UnitOfWork;
-using NTTRUNG_Laze_Languages_Application.Dtos.Entity;
-using NTTRUNG_Laze_Languages_Domain.Model;
-using NTTRUNG_Laze_Languages_Domain.Enum;
-using NTTRUNG_Laze_Languages_Domain.Resources.ErrorMessage;
-using NTTRUNG_Laze_Languages_Domain;
+using NTTRUNG_Lazy_Languages_Domain.Interface.Repository;
+using NTTRUNG_Lazy_Languages_Domain.Interface.UnitOfWork;
+using NTTRUNG_Lazy_Languages_Application.Dtos.Entity;
+using NTTRUNG_Lazy_Languages_Domain.Model;
+using NTTRUNG_Lazy_Languages_Domain.Enum;
+using NTTRUNG_Lazy_Languages_Domain.Resources.ErrorMessage;
+using NTTRUNG_Lazy_Languages_Domain;
 using Microsoft.Extensions.Configuration;
-namespace NTTRUNG_Laze_Languages_Application.Service
+namespace NTTRUNG_Lazy_Languages_Application.Service
 {
     public class AuthService : IAuthService
     {

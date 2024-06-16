@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using NTTRUNG_Laze_Languages_Application.Interface.Base;
-using NTTRUNG_Laze_Languages_Domain.Common;
-using NTTRUNG_Laze_Languages_Domain.Interface.Base;
+using NTTRUNG_Lazy_Languages_Application.Interface.Base;
+using NTTRUNG_Lazy_Languages_Domain.Common;
+using NTTRUNG_Lazy_Languages_Domain.Interface.Base;
 using System;
 using System.Collections.Generic;
 using System.Drawing.Printing;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NTTRUNG_Laze_Languages_Application.Service.Base
+namespace NTTRUNG_Lazy_Languages_Application.Service.Base
 {
     public abstract class ReadOnlyService<TEntity, TModel, TDto> : IReadOnlyService<TModel, TDto>
     {

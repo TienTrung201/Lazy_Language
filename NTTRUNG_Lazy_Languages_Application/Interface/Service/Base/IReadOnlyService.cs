@@ -1,11 +1,11 @@
-﻿using NTTRUNG_Laze_Languages_Domain.Common;
+﻿using NTTRUNG_Lazy_Languages_Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NTTRUNG_Laze_Languages_Application.Interface.Base
+namespace NTTRUNG_Lazy_Languages_Application.Interface.Base
 {
     public interface IReadOnlyService<TModel, TDto>
     {

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NTTRUNG_Laze_Languages_Domain.Resources.ValidateInput {
+namespace NTTRUNG_Lazy_Languages_Domain.Resources.ValidateInput {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace NTTRUNG_Laze_Languages_Domain.Resources.ValidateInput {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NTTRUNG_Laze_Languages_Domain.Resources.ValidateInput.ValidateInput", typeof(ValidateInput).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NTTRUNG_Lazy_Languages_Domain.Resources.ValidateInput.ValidateInput", typeof(ValidateInput).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

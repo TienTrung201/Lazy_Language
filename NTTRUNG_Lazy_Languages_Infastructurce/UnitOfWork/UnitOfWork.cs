@@ -5,10 +5,10 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NTTRUNG_Laze_Languages_Domain.Interface.UnitOfWork;
+using NTTRUNG_Lazy_Languages_Domain.Interface.UnitOfWork;
 using MySqlConnector;
 
-namespace NTTRUNG_Laze_Languages_Infastructurce.Repository.UnitOfWork
+namespace NTTRUNG_Lazy_Languages_Infastructurce.Repository.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {

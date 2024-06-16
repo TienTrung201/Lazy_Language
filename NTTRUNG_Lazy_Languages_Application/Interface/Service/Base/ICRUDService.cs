@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NTTRUNG_Laze_Languages_Application.Interface.Base
+namespace NTTRUNG_Lazy_Languages_Application.Interface.Base
 {
     public interface ICRUDService<Tmodel, TDto> : IReadOnlyService<Tmodel, TDto>
     {

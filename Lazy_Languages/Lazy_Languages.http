@@ -1,0 +1,6 @@
+@Lazy_Languages_HostAddress = http://localhost:5030
+
+GET {{Lazy_Languages_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

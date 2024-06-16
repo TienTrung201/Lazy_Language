@@ -1,7 +1,7 @@
 ﻿using Dapper;
-using NTTRUNG_Laze_Languages_Domain.Entity;
-using NTTRUNG_Laze_Languages_Domain.Interface.Base;
-using NTTRUNG_Laze_Languages_Domain.Interface.UnitOfWork;
+using NTTRUNG_Lazy_Languages_Domain.Entity;
+using NTTRUNG_Lazy_Languages_Domain.Interface.Base;
+using NTTRUNG_Lazy_Languages_Domain.Interface.UnitOfWork;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static Dapper.SqlMapper;
 
-namespace NTTRUNG_Laze_Languages_Infastructurce.Repository.Base
+namespace NTTRUNG_Lazy_Languages_Infastructurce.Repository.Base
 {
     /// <summary>
     /// Lớp cơ sở cho Repository dùng cho các thao tác chỉ đọc (ReadOnly) và thao tác cơ bản (CRUD) với cơ sở dữ liệu.

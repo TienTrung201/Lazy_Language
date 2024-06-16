@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NTTRUNG_Lazy_Languages_Domain/1.0.0": {
+        "runtime": {
+          "NTTRUNG_Lazy_Languages_Domain.dll": {}
+        },
+        "resources": {
+          "en-US/NTTRUNG_Lazy_Languages_Domain.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NTTRUNG_Lazy_Languages_Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

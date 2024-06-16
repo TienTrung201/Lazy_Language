@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace NTTRUNG_Laze_Languages_Domain
+namespace NTTRUNG_Lazy_Languages_Domain
 {
     /// <summary>
     /// Đối tượng trả về lỗi cho Api

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NTTRUNG_Lazy_Languages.props" />
+</Project>

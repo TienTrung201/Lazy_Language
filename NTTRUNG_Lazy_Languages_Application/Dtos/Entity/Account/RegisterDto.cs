@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NTTRUNG_Laze_Languages_Application.Dtos.Entity.Account
+namespace NTTRUNG_Lazy_Languages_Application.Dtos.Entity.Account
 {
     public class RegisterDto
     {

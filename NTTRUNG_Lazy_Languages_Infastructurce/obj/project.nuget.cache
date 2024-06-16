@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sPx44Vgbf6NyQQIwpqCxYcsNP493fw9WNFHzSLiG7m9c7F4oHeLwc7jTQxGVKenaHX8jxjbz3uU20Pgwprmazg==",
+  "dgSpecHash": "gpNqeJzGTT2+4L9I+6GH5EIhawVNBp8O6wWW1lhMDoFTwXY3R4TuvWP0+eD1NrR1Fe8i3O2boilo6MEiWeNWhw==",
   "success": true,
-  "projectFilePath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Infastructurce\\NTTRUNG_Laze_Languages_Infastructurce.csproj",
+  "projectFilePath": "D:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Lazy_Languages_Infastructurce\\NTTRUNG_Lazy_Languages_Infastructurce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tientrung\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\tientrung\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

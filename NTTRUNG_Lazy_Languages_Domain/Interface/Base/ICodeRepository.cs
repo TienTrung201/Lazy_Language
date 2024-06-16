@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NTTRUNG_Laze_Languages_Domain.Interface.Base
+namespace NTTRUNG_Lazy_Languages_Domain.Interface.Base
 {
     public interface ICodeRepository<TEntity, TModel> : ICRUDRepository<TEntity, TModel>
     {

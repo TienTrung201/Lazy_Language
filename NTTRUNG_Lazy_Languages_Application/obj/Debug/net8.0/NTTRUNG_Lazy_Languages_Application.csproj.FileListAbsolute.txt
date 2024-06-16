@@ -1,0 +1,17 @@
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\bin\Debug\net8.0\NTTRUNG_Lazy_Languages_Application.deps.json
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\bin\Debug\net8.0\NTTRUNG_Lazy_Languages_Application.dll
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\bin\Debug\net8.0\NTTRUNG_Lazy_Languages_Application.pdb
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\bin\Debug\net8.0\NTTRUNG_Lazy_Languages_Domain.dll
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\bin\Debug\net8.0\NTTRUNG_Lazy_Languages_Domain.pdb
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\bin\Debug\net8.0\en-US\NTTRUNG_Lazy_Languages_Domain.resources.dll
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\obj\Debug\net8.0\NTTRUNG_Lazy_Languages_Application.csproj.AssemblyReference.cache
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\obj\Debug\net8.0\NTTRUNG_Lazy_Languages_Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\obj\Debug\net8.0\NTTRUNG_Lazy_Languages_Application.AssemblyInfoInputs.cache
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\obj\Debug\net8.0\NTTRUNG_Lazy_Languages_Application.AssemblyInfo.cs
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\obj\Debug\net8.0\NTTRUNG_Lazy_Languages_Application.csproj.CoreCompileInputs.cache
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\obj\Debug\net8.0\NTTRUNG_Lazy_Languages_Application.sourcelink.json
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\obj\Debug\net8.0\NTTRUNG_.6AD63B56.Up2Date
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\obj\Debug\net8.0\NTTRUNG_Lazy_Languages_Application.dll
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\obj\Debug\net8.0\refint\NTTRUNG_Lazy_Languages_Application.dll
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\obj\Debug\net8.0\NTTRUNG_Lazy_Languages_Application.pdb
+D:\Wep\project\Lazy_Languages\NTTRUNG_Lazy_Languages_Application\obj\Debug\net8.0\ref\NTTRUNG_Lazy_Languages_Application.dll

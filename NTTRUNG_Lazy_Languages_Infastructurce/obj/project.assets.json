@@ -251,31 +251,31 @@
           }
         }
       },
-      "NTTRUNG_Laze_Languages_Application/1.0.0": {
+      "NTTRUNG_Lazy_Languages_Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AutoMapper": "12.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "Microsoft.Extensions.Configuration": "8.0.0",
-          "NTTRUNG_Laze_Languages_Domain": "1.0.0",
+          "NTTRUNG_Lazy_Languages_Domain": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "7.5.1"
         },
         "compile": {
-          "bin/placeholder/NTTRUNG_Laze_Languages_Application.dll": {}
+          "bin/placeholder/NTTRUNG_Lazy_Languages_Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NTTRUNG_Laze_Languages_Application.dll": {}
+          "bin/placeholder/NTTRUNG_Lazy_Languages_Application.dll": {}
         }
       },
-      "NTTRUNG_Laze_Languages_Domain/1.0.0": {
+      "NTTRUNG_Lazy_Languages_Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/NTTRUNG_Laze_Languages_Domain.dll": {}
+          "bin/placeholder/NTTRUNG_Lazy_Languages_Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NTTRUNG_Laze_Languages_Domain.dll": {}
+          "bin/placeholder/NTTRUNG_Lazy_Languages_Domain.dll": {}
         }
       }
     }
@@ -750,23 +750,23 @@
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
-    "NTTRUNG_Laze_Languages_Application/1.0.0": {
+    "NTTRUNG_Lazy_Languages_Application/1.0.0": {
       "type": "project",
-      "path": "../NTTRUNG_Laze_Languages_Application/NTTRUNG_Laze_Languages_Application.csproj",
-      "msbuildProject": "../NTTRUNG_Laze_Languages_Application/NTTRUNG_Laze_Languages_Application.csproj"
+      "path": "../NTTRUNG_Lazy_Languages_Application/NTTRUNG_Lazy_Languages_Application.csproj",
+      "msbuildProject": "../NTTRUNG_Lazy_Languages_Application/NTTRUNG_Lazy_Languages_Application.csproj"
     },
-    "NTTRUNG_Laze_Languages_Domain/1.0.0": {
+    "NTTRUNG_Lazy_Languages_Domain/1.0.0": {
       "type": "project",
-      "path": "../NTTRUNG_Laze_Languages_Domain/NTTRUNG_Laze_Languages_Domain.csproj",
-      "msbuildProject": "../NTTRUNG_Laze_Languages_Domain/NTTRUNG_Laze_Languages_Domain.csproj"
+      "path": "../NTTRUNG_Lazy_Languages_Domain/NTTRUNG_Lazy_Languages_Domain.csproj",
+      "msbuildProject": "../NTTRUNG_Lazy_Languages_Domain/NTTRUNG_Lazy_Languages_Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Dapper >= 2.1.35",
       "MySqlConnector >= 2.3.6",
-      "NTTRUNG_Laze_Languages_Application >= 1.0.0",
-      "NTTRUNG_Laze_Languages_Domain >= 1.0.0"
+      "NTTRUNG_Lazy_Languages_Application >= 1.0.0",
+      "NTTRUNG_Lazy_Languages_Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -775,11 +775,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Infastructurce\\NTTRUNG_Laze_Languages_Infastructurce.csproj",
-      "projectName": "NTTRUNG_Laze_Languages_Infastructurce",
-      "projectPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Infastructurce\\NTTRUNG_Laze_Languages_Infastructurce.csproj",
+      "projectUniqueName": "D:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Lazy_Languages_Infastructurce\\NTTRUNG_Lazy_Languages_Infastructurce.csproj",
+      "projectName": "NTTRUNG_Lazy_Languages_Infastructurce",
+      "projectPath": "D:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Lazy_Languages_Infastructurce\\NTTRUNG_Lazy_Languages_Infastructurce.csproj",
       "packagesPath": "C:\\Users\\tientrung\\.nuget\\packages\\",
-      "outputPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Infastructurce\\obj\\",
+      "outputPath": "D:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Lazy_Languages_Infastructurce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tientrung\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -796,11 +796,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Application\\NTTRUNG_Laze_Languages_Application.csproj": {
-              "projectPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Application\\NTTRUNG_Laze_Languages_Application.csproj"
+            "D:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Lazy_Languages_Application\\NTTRUNG_Lazy_Languages_Application.csproj": {
+              "projectPath": "D:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Lazy_Languages_Application\\NTTRUNG_Lazy_Languages_Application.csproj"
             },
-            "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\NTTRUNG_Laze_Languages_Domain.csproj": {
-              "projectPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\NTTRUNG_Laze_Languages_Domain.csproj"
+            "D:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Lazy_Languages_Domain\\NTTRUNG_Lazy_Languages_Domain.csproj": {
+              "projectPath": "D:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Lazy_Languages_Domain\\NTTRUNG_Lazy_Languages_Domain.csproj"
             }
           }
         }

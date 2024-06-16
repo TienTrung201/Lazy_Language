@@ -1,10 +1,10 @@
 ﻿using Dapper;
-using NTTRUNG_Laze_Languages_Domain;
-using NTTRUNG_Laze_Languages_Domain.Common;
-using NTTRUNG_Laze_Languages_Domain.Enum;
-using NTTRUNG_Laze_Languages_Domain.Interface.Base;
-using NTTRUNG_Laze_Languages_Domain.Interface.UnitOfWork;
-using NTTRUNG_Laze_Languages_Domain.Resources.ErrorMessage;
+using NTTRUNG_Lazy_Languages_Domain;
+using NTTRUNG_Lazy_Languages_Domain.Common;
+using NTTRUNG_Lazy_Languages_Domain.Enum;
+using NTTRUNG_Lazy_Languages_Domain.Interface.Base;
+using NTTRUNG_Lazy_Languages_Domain.Interface.UnitOfWork;
+using NTTRUNG_Lazy_Languages_Domain.Resources.ErrorMessage;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -12,7 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NTTRUNG_Laze_Languages_Infastructurce.Repository.Base
+namespace NTTRUNG_Lazy_Languages_Infastructurce.Repository.Base
 {
     /// <summary>
     /// Lớp cơ sở cho Repository chỉ đọc (ReadOnly) dùng cho việc truy vấn dữ liệu từ cơ sở dữ liệu.

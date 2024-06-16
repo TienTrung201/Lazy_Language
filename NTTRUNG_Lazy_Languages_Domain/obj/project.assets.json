@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\NTTRUNG_Laze_Languages_Domain.csproj",
-      "projectName": "NTTRUNG_Laze_Languages_Domain",
-      "projectPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\NTTRUNG_Laze_Languages_Domain.csproj",
+      "projectUniqueName": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Lazy_Languages_Domain\\NTTRUNG_Lazy_Languages_Domain.csproj",
+      "projectName": "NTTRUNG_Lazy_Languages_Domain",
+      "projectPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Lazy_Languages_Domain\\NTTRUNG_Lazy_Languages_Domain.csproj",
       "packagesPath": "C:\\Users\\tientrung\\.nuget\\packages\\",
-      "outputPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Laze_Languages_Domain\\obj\\",
+      "outputPath": "d:\\Wep\\project\\Lazy_Languages\\NTTRUNG_Lazy_Languages_Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tientrung\\AppData\\Roaming\\NuGet\\NuGet.Config",

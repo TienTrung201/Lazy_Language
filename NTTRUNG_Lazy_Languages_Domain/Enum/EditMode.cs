@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NTTRUNG_Laze_Languages_Domain.Enum
+namespace NTTRUNG_Lazy_Languages_Domain.Enum
 {
     /// <summary>
     /// Enum Eddit mode

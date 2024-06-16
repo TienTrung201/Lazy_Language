@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using NTTRUNG_Laze_Languages_Application.Dtos.Entity;
-using NTTRUNG_Laze_Languages_Domain.Entity;
-using NTTRUNG_Laze_Languages_Domain.Model;
+using NTTRUNG_Lazy_Languages_Application.Dtos.Entity;
+using NTTRUNG_Lazy_Languages_Domain.Entity;
+using NTTRUNG_Lazy_Languages_Domain.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;

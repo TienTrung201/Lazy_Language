@@ -1,0 +1,282 @@
+[
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.AuthsController",
+    "Method": "Login",
+    "RelativePath": "api/Auths/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginModel",
+        "Type": "NTTRUNG_Lazy_Languages_Application.Dtos.Entity.Account.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.AuthsController",
+    "Method": "Register",
+    "RelativePath": "api/Auths/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerModel",
+        "Type": "NTTRUNG_Lazy_Languages_Application.Dtos.Entity.Account.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.ReadOnlyController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.RoleModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.RoleDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.CRUDController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.RoleModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.RoleDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.ReadOnlyController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.RoleModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.RoleDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetDetail",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.CRUDController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.RoleModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.RoleDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Roles/DeleteMany",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.ReadOnlyController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.RoleModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.RoleDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "FilterSortAsync",
+    "RelativePath": "api/Roles/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "NTTRUNG_Lazy_Languages_Domain.Common.FilterSort",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.ReadOnlyController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.RoleModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.RoleDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "FilterAsync",
+    "RelativePath": "api/Roles/filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.CRUDController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.RoleModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.RoleDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "SaveData",
+    "RelativePath": "api/Roles/SaveData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listData",
+        "Type": "System.Collections.Generic.List\u00601[[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.RoleDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.ReadOnlyController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.UserModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.UserDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.CRUDController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.UserModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.UserDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.ReadOnlyController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.UserModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.UserDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetDetail",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.CRUDController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.UserModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.UserDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Users/DeleteMany",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.ReadOnlyController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.UserModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.UserDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "FilterSortAsync",
+    "RelativePath": "api/Users/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "NTTRUNG_Lazy_Languages_Domain.Common.FilterSort",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.ReadOnlyController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.UserModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.UserDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "FilterAsync",
+    "RelativePath": "api/Users/filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.CodeController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.UserModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.UserDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetNewCode",
+    "RelativePath": "api/Users/NewCode/{prefix}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prefix",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTTRUNG_Lazy_Languages_Controllers.Base.CRUDController\u00602[[NTTRUNG_Lazy_Languages_Domain.Model.UserModel, NTTRUNG_Lazy_Languages_Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.UserDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "SaveData",
+    "RelativePath": "api/Users/SaveData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listData",
+        "Type": "System.Collections.Generic.List\u00601[[NTTRUNG_Lazy_Languages_Application.Dtos.Entity.UserDto, NTTRUNG_Lazy_Languages_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
